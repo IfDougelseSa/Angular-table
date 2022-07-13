@@ -4,10 +4,10 @@
 
 # About the project / Sobre o projeto
 
-This application was built during my intership at Banco do Brasil project.
+This application was built during my intership at IBM.
 Angular table with complete crud.
 
-Essa aplicação foi construída durante meu estágio no projeto Banco do Brasil.
+Essa aplicação foi construída durante meu estágio na IBM.
 Tabela angular com crud completo.
 
 
