@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <app-nav-bar></app-nav-bar>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <form (ngSubmit)="addUser()" id="form">
+            <div class="mb-3">
+              <label class="form-label">Name</label>
+            <input
+              id="nameUser"
+              class="form-control"
+              name="nameUser"
+              type="text"
+              [(ngModel)]="nameUser"
+              #name="ngModel"
+              placeholder="Name"
+            />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Age</label>
+            <input
+              id="age"
+              class="form-control"
+              name="age"
+              type="text"
+              [(ngModel)]="age"
+              #name="ngModel"
+              placeholder="Age"
+            />
+          </div>
+
+            <button type="submit" class="btn btn-primary">Create</button>
+       
+          </form>
+        </div>
+      </div>
+    </div>
+    <app-footer></app-footer>
+  </body>
+</html>
