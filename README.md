@@ -1,5 +1,6 @@
 # Angular table
-@IBM
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/IfDougelseSa/Angular-table/blob/main/LICENSE)
+
 
 # About the project / Sobre o projeto
 
